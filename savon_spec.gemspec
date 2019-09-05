@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.add_dependency "mocha", ">= 0.9.8"
 
   s.add_development_dependency "httpclient", "~> 2.1.5"
-  s.add_development_dependency "webmock", "~> 1.4.0"
+  s.add_development_dependency "webmock", "~> 3.7.2"
 
   s.files = `git ls-files`.split("\n")
   s.require_path = "lib"
